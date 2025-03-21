@@ -1,11 +1,12 @@
 import React from "react";
-import Counter from "./Counter";
+import TodoList from "./components/TodoList";
 
 function App() {
   return (
-    <div>
-      <Counter />
-    </div>
+    <>
+     
+      <TodoList />
+    </>
   );
 }
 
